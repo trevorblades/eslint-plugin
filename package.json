@@ -1,0 +1,34 @@
+{
+  "name": "@trevorblades/eslint-plugin",
+  "version": "1.0.0",
+  "description": "My favourite ESLint rules and configs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "trevorblades/eslint-plugin",
+  "keywords": [
+    "eslint",
+    "plugin",
+    "config",
+    "prettier",
+    "react",
+    "typescript"
+  ],
+  "author": "Trevor Blades <tdblades@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^8.16.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "prettier": "2.6.2"
+  }
+}
