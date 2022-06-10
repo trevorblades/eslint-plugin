@@ -10,4 +10,11 @@ module.exports = {
       { allowTypedFunctionExpressions: false },
     ],
   },
+  settings: {
+    "import/resolver": {
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+  },
 };
