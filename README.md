@@ -24,8 +24,9 @@ This plugin contains the following configs:
 - `plugin:@trevorblades/core` for basic JavaScript and Node.js projects
 - `plugin:@trevorblades/react` for React projects
 - `plugin:@trevorblades/typescript` for TypeScript projects
+- `plugin:@trevorblades/graphql` for projects that contain GraphQL files
 
-The `react` config inherits rules and plugins from `core`, but `typescript` doesn't inherit any rules, and must be combined with either `core` or `react` for best results.
+The `react` config inherits rules and plugins from `core`, but `typescript` and `graphql` don't inherit any rules, and must be combined with the other configs for best results.
 
 ## Prettier
 
@@ -44,6 +45,7 @@ module.exports = {
   extends: [
     "plugin:@trevorblades/react",
     "plugin:@trevorblades/typescript",
+    "plugin:@trevorblades/graphql",
     "plugin:prettier/recommended"
   ]
 };
