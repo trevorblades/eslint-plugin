@@ -5,11 +5,6 @@ module.exports = {
     es6: true,
   },
   plugins: ["sort-imports-es6-autofix"],
-  settings: {
-    "import/resolver": {
-      exports: true,
-    },
-  },
   rules: {
     "import/no-unresolved": [
       "error",

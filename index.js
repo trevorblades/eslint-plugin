@@ -3,5 +3,6 @@ module.exports = {
     core: require("./core"),
     react: require("./react"),
     typescript: require("./typescript"),
+    graphql: require("./graphql"),
   },
 };
