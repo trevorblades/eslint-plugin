@@ -1,6 +1,6 @@
 {
   "name": "@trevorblades/eslint-plugin",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "My favourite ESLint rules and configs.",
   "main": "index.js",
   "scripts": {
