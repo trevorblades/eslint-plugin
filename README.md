@@ -13,7 +13,7 @@ npm i -D @trevorblades/eslint-plugin
 ```js
 // .eslintrc.js
 module.exports = {
-  extends: ["plugin:@trevorblades/core"]
+  extends: ["plugin:@trevorblades/node"]
 };
 ```
 
@@ -21,12 +21,12 @@ module.exports = {
 
 This plugin contains the following configs:
 
-- `plugin:@trevorblades/core` for basic JavaScript and Node.js projects
+- `plugin:@trevorblades/node` for basic JavaScript and Node.js projects
 - `plugin:@trevorblades/react` for React projects
 - `plugin:@trevorblades/typescript` for TypeScript projects
 - `plugin:@trevorblades/graphql` for projects that contain GraphQL files
 
-The `react` config inherits rules and plugins from `core`, but `typescript` and `graphql` don't inherit any rules, and must be combined with the other configs for best results.
+The `react` config inherits rules and plugins from `node`, but `typescript` and `graphql` don't inherit any rules, and must be combined with the other configs for best results.
 
 ## Prettier
 
