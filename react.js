@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["./core", "plugin:react/recommended"],
+  extends: ["./node", "plugin:react/recommended"],
   env: {
     browser: true,
   },
