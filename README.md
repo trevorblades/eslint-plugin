@@ -1,4 +1,4 @@
-# `@trevorblades/eslint-plugin`
+# @trevorblades/eslint-plugin
 
 This package is the successor to my old ESLint config, [`@trevorblades/eslint-config`](https://github.com/trevorblades/eslint-config). It's compatible with ESLint 8 and features a few major differences:
 
